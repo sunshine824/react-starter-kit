@@ -32,6 +32,57 @@ $ npm run build
 查看效果` http://127.0.0.1:3000`
 
 
+## 3.目录结构
+
+```
+├─package.json
+├─README.md
+├─src
+|  ├─App.js
+|  ├─index.js
+|  ├─registerServiceWorker.js
+|  ├─static
+|  |   ├─README.md
+|  |   ├─css
+|  |   |  └base.css
+|  ├─router
+|  |   ├─README.md
+|  |   └routeMap.js
+|  ├─fetch
+|  |   ├─get.js
+|  |   ├─post.js
+|  |   ├─README.md
+|  |   └test.js
+|  ├─containers
+|  |     ├─README.md
+|  |     ├─Home
+|  |     |  ├─index.js
+|  |     |  └style.less
+|  ├─config
+|  |   └README.md
+|  ├─components
+|  |     └README.md
+├─scripts
+|    ├─build.js
+|    ├─start.js
+|    └test.js
+├─public
+|   ├─favicon.ico
+|   ├─index.html
+|   └manifest.json
+├─config
+|   ├─env.js
+|   ├─paths.js
+|   ├─polyfills.js
+|   ├─webpack.config.dev.js
+|   ├─webpack.config.prod.js
+|   ├─webpackDevServer.config.js
+|   ├─jest
+|   |  ├─cssTransform.js
+|   |  └fileTransform.js
+```
+
+
 ## 2. 技术栈
 
 - [x] [Webpack](https://webpack.github.io)
