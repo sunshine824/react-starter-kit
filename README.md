@@ -83,7 +83,7 @@ $ npm run build
 ```
 
 
-## 2. 技术栈
+## 3. 技术栈
 
 - [x] [Webpack](https://webpack.github.io)
 - [x] [React](https://facebook.github.io/react/)
