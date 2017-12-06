@@ -41,26 +41,26 @@ $ npm run build
 |  ├─App.js
 |  ├─index.js
 |  ├─registerServiceWorker.js
-|  ├─static    静态资源目录
+|  ├─static                                              静态资源目录
 |  |   ├─README.md
-|  |   ├─css       css样式目录
+|  |   ├─css                                             css样式目录
 |  |   |  └base.css
-|  ├─router     路由目录
+|  ├─router                                              路由目录
 |  |   ├─README.md
 |  |   └routeMap.js
-|  ├─fetch       fetch接口请求目录
-|  |   ├─get.js         get请求封装
-|  |   ├─post.js        post请求封装
+|  ├─fetch                                               fetch接口请求目录
+|  |   ├─get.js                                          get请求封装
+|  |   ├─post.js                                         post请求封装
 |  |   ├─README.md
-|  |   └test.js         测试接口
-|  ├─containers        集成组件
+|  |   └test.js                                           测试接口
+|  ├─containers                                          集成组件
 |  |     ├─README.md
 |  |     ├─Home
 |  |     |  ├─index.js
 |  |     |  └style.less
-|  ├─config         公共变量库
+|  ├─config                                             公共变量库
 |  |   └README.md
-|  ├─components     小组件
+|  ├─components                                         微组件
 |  |     └README.md
 ├─scripts
 |    ├─build.js
