@@ -32,7 +32,7 @@ $ npm run build
 查看效果` http://127.0.0.1:3000`
 
 
-## 3.目录结构
+## 2.目录结构
 
 ```
 ├─package.json
@@ -41,45 +41,33 @@ $ npm run build
 |  ├─App.js
 |  ├─index.js
 |  ├─registerServiceWorker.js
-|  ├─static
+|  ├─static    静态资源目录
 |  |   ├─README.md
-|  |   ├─css
+|  |   ├─css       css样式目录
 |  |   |  └base.css
-|  ├─router
+|  ├─router     路由目录
 |  |   ├─README.md
 |  |   └routeMap.js
-|  ├─fetch
-|  |   ├─get.js
-|  |   ├─post.js
+|  ├─fetch       fetch接口请求目录
+|  |   ├─get.js         get请求封装
+|  |   ├─post.js        post请求封装
 |  |   ├─README.md
-|  |   └test.js
-|  ├─containers
+|  |   └test.js         测试接口
+|  ├─containers        集成组件
 |  |     ├─README.md
 |  |     ├─Home
 |  |     |  ├─index.js
 |  |     |  └style.less
-|  ├─config
+|  ├─config         公共变量库
 |  |   └README.md
-|  ├─components
+|  ├─components     小组件
 |  |     └README.md
 ├─scripts
 |    ├─build.js
 |    ├─start.js
 |    └test.js
 ├─public
-|   ├─favicon.ico
-|   ├─index.html
-|   └manifest.json
 ├─config
-|   ├─env.js
-|   ├─paths.js
-|   ├─polyfills.js
-|   ├─webpack.config.dev.js
-|   ├─webpack.config.prod.js
-|   ├─webpackDevServer.config.js
-|   ├─jest
-|   |  ├─cssTransform.js
-|   |  └fileTransform.js
 ```
 
 
