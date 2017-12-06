@@ -35,25 +35,27 @@ $ npm run build
 ## 2.目录结构
 
 ```
-    ├─package.json                                           依赖库
+    ├─package.json                                依赖库
     ├─README.md
     ├─src
     |  ├─App.js
     |  ├─index.js
     |  ├─registerServiceWorker.js
-    |  ├─static                                              静态资源目录
+    |  ├─static                                   静态资源目录
     |  |   ├─README.md
-    |  |   ├─css                                             css样式目录
+    |  |   ├─css                                  css样式目录
     |  |   |  └base.css
-    |  ├─router                                              路由目录
+    |  |   ├─js                                   js脚本库
+    |  |   ├─images                               图片资源库
+    |  ├─router                                   路由目录
     |  |   ├─README.md
     |  |   └routeMap.js
-    |  ├─fetch                                               fetch接口请求目录
-    |  |   ├─get.js                                          get请求封装
-    |  |   ├─post.js                                         post请求封装
+    |  ├─fetch                                    fetch接口请求目录
+    |  |   ├─get.js                               get请求封装
+    |  |   ├─post.js                              post请求封装
     |  |   ├─README.md
-    |  |   └test.js                                           测试接口
-    |  ├─containers                                          集成组件
+    |  |   └test.js                                测试接口
+    |  ├─containers                               集成组件
     |  |     ├─README.md
     |  |     ├─Home
     |  |     |  ├─index.js
