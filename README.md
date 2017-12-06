@@ -54,15 +54,15 @@ $ npm run build
     |  |   ├─get.js                               get请求封装
     |  |   ├─post.js                              post请求封装
     |  |   ├─README.md
-    |  |   └test.js                                测试接口
+    |  |   └test.js                               测试接口
     |  ├─containers                               集成组件
     |  |     ├─README.md
     |  |     ├─Home
     |  |     |  ├─index.js
     |  |     |  └style.less
-    |  ├─config                                             公共变量库
+    |  ├─config                                   公共变量库
     |  |   └README.md
-    |  ├─components                                         微组件
+    |  ├─components                               微组件
     |  |     └README.md
     ├─scripts
     |    ├─build.js
